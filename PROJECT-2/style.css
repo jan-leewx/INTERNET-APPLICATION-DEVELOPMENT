@@ -1,0 +1,581 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face
+{
+    font-family: panthon light;
+    src: url(Panton/PantonNarrowDemo-Light.otf);
+}
+@font-face
+{
+    font-family: panton-bold;
+    src: url(Panton/PantonNarrowDemo-Black.otf);
+}
+@font-face
+{
+    font-family: quicksand;
+    src: url(Quicksand/Quicksand-Light.otf);
+}
+.animate-in 
+{
+    -webkit-animation: fadeIn .5s ease-in;
+    animation: fadeIn .5s ease-in;
+}
+.animate-out 
+{
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    opacity: 0;
+}
+
+@-webkit-keyframes fadeIn 
+{
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeIn 
+{
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+main
+{
+    background-color: #F5E4C3;
+    height: 100%;
+    width: auto;
+}
+header
+{
+    height: auto;
+    width: 304px;
+}
+fieldset
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 20px;
+    font-family: quicksand;
+    border: 3px solid #0E2431;
+    color: #0E2431;
+    font-size: 25px;
+}
+legend
+{
+    font-weight: bold;
+    font-size: 40px;
+}
+.form
+{
+    position: absolute;
+    top: 360px;
+    left: 400px;
+    margin-left: 50px;
+}
+.everyt
+{
+    height: 1100px;
+    margin-left: 375px;
+}
+hr
+{
+    border: 2px solid #0E2431;
+}
+.darkblue
+{
+    position: absolute;
+    border-left: 200px solid #0E2431;
+    height: 1100px;
+    left: 14.4px;
+    z-index: 1;
+}
+.darkred
+{
+    position: absolute;
+    border-left: 200px solid #C14545;
+    height: 1100px;
+    left: 43.2px;
+    z-index: 2;
+}
+.lighterred
+{
+    position: absolute;
+    border-left: 304px solid #EA4C4C;
+    height: 1100px;
+    left: 72px;
+    z-index: 3;
+}
+.logo
+{
+    position: absolute;
+    height: 254px;
+    width: 254px;
+    left: 97px;
+    top: 15px;
+    z-index: 4;
+}
+.vertical-menu
+{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 72px;
+    top: 300px;
+    width: 304px;
+    z-index: 5;
+}
+.vertical-menu a
+{
+    color: #0E2431;
+    display: block;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    font-family: panthon light;
+    font-size: 40px;
+    background-color: #EA4C4C;
+}
+.vertical-menu a.hover
+{
+    background-color: #F5E4C3;
+}
+.vertical-menu a.active
+{
+    background-color: #0E2431;
+    color: #F5E4C3;
+}
+.gerycover
+{
+    height: 100%;
+    position: absolute;
+    left: 376px;
+    width: 1554px;
+    background-color: grey;
+    opacity: 50%;
+}
+.background
+{
+    position: absolute;
+    left: 376px;
+    height: 1100px;
+    width: 1527px;
+    z-index: 6;
+}
+.grey
+{
+    position: absolute;
+    left: 376px;
+    height: 1100px;
+    width: 1527px;
+    z-index: 7;
+}
+.portfoliotxt
+{
+    position: absolute;
+    font-family: panton-bold;
+    color: #0E2431;
+    font-size: 110px;
+    left: 1310px;
+    top: 710px;
+    opacity: 70%;
+    z-index: 8;
+}
+.yeartxt
+{
+    position: absolute;
+    font-family: panton-bold;
+    color: #0E2431;
+    font-size: 110px;
+    left: 1604px;
+    top: 800px;
+    opacity: 70%;
+    z-index: 9;
+}
+.abtmehead
+{
+    width: 300px;
+    margin-left: 4px;
+    padding-left: 40px;
+    padding-top: 45px;
+    font-family: panthon light;
+    font-size: 50px;
+}
+.linelong
+{
+    position: absolute;
+    top: 105px;
+    left: 405px;
+}
+.lineshort
+{
+    position: absolute;
+    top: 115px;
+    left: 438px;
+}
+.contacthead
+{
+    position: absolute;
+    width: 300px;
+    margin-left: 4px;
+    padding-left: 40px;
+    padding-top: 45px;
+    font-family: panthon light;
+    font-size: 50px;
+}
+.conlinelong
+{
+    position: absolute;
+    top: 105px;
+    left: 30px;
+}
+.conlineshort
+{
+    position: absolute;
+    top: 115px;
+    left: 70px;
+}
+.porthead
+{
+    position: absolute;
+    width: 300px;
+    margin-left: 4px;
+    padding-left: 40px;
+    padding-top: 45px;
+    font-family: panthon light;
+    font-size: 50px;
+}
+.porttimeline
+{
+    font-family: quicksand;
+    font-size: 30px;
+    font-weight: bold;
+    top: 120px;
+    left: 400px;
+}
+.webimg
+{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+.yearhead2018
+{
+    position: absolute;
+    font-family: quicksand;
+    font-size: 30px;
+    font-weight: bold;
+    top: 150px;
+    left: 415px;
+}
+.yearhead2019
+{
+    position: absolute;
+    font-family: quicksand;
+    font-size: 30px;
+    font-weight: bold;
+    top: 150px;
+    left: 1200px;
+}
+.lineport2018
+{
+    position: absolute;
+    top: 35px;
+    left: -8px;
+}
+.lineport201802
+{
+    position: absolute;
+    top: 35px;
+    left: 70px;
+}
+.timelineline1
+{
+    position: absolute;
+    top: 170px;
+    left: 380px;
+}
+.timelineline2
+{
+    position: absolute;
+    top: 85px;
+    left: 580px;
+}
+.contactmedetails
+{
+    position: absolute;
+    font-family: quicksand;
+    font-size: 30px;
+    font-weight: bold;
+    top: 120px;
+    left: 400px;
+}
+.lines
+{
+    position: absolute;
+    top: 105px;
+    left: 35px;
+}
+.band
+{
+    position: absolute;
+    top: 75px;
+    left: 15px;
+}
+.photoshop
+{
+    position: absolute;
+    top: 310px;
+    left: 15px;
+}
+.cookie
+{
+    position: absolute;
+    top: 75px;
+    left: 15px;
+}
+.vid1
+{
+    position: absolute;
+    top: 550px;
+    left: 15px;
+}
+.vid2
+{
+    position: absolute;
+    top: 380px;
+    left: 15px;
+}
+.bandtxt
+{
+    font-size: 25px;
+}
+.webbannertxt
+{
+    font-size: 25px;
+}
+.vid1txt
+{
+    font-size: 25px;
+}
+.vid2txt
+{
+    font-size: 25px;
+}
+.emailtxt
+{
+    position: absolute;
+    top: 115px;
+    left: 80px;
+}
+.instatag
+{
+    position: absolute;
+    top: 175px;
+    left: 80px;
+}
+.abtmetext
+{   
+    position: absolute;
+    font-family: quicksand;
+    font-size: 30px;
+    font-weight: bold;
+    top: 120px;
+    left: 400px;
+}
+.lightbackbig
+{
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    top: -20px;
+    left: 80px;
+    background-color: #C14545;
+    z-index: 10;
+}
+.lightblacksmall
+{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    top: 540px;
+    left: 1100px;
+    background-color: #C14545;
+    z-index: 12;
+}
+.lightblacksmall2
+{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    top: 330px;
+    left: 1480px;
+    background-color: #C14545;
+    z-index: ;
+}
+.picme
+{
+    position: absolute;
+    top: 460px;
+    left: 400px;
+}
+.pic1
+{
+    position: absolute;
+    z-index: 11;
+}
+.pic2
+{
+    position: absolute;
+    top: 560px;
+    left: 1020px;
+    z-index: 13;
+}
+.picmilk
+{
+    position: absolute;
+    top: 350px;
+    left: 1400px;
+}
+.iconsright
+{
+    position: absolute;
+    top: 110px;
+    left: 500px;
+}
+.teletag
+{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.phoneno
+{
+    position: absolute;
+    top: 69px;
+    left: 100px;
+}
+.buttonsub
+{
+    background-color: #0E2431;
+    color: #F5E4C3;
+    padding: 10px;
+    font-family: quicksand;
+    width: 150px;
+    font-size: 30px;
+}
+.buttonres
+{
+    background-color: #0E2431;
+    color: #F5E4C3;
+    padding: 10px;
+    font-family: quicksand;
+    width: 150px;
+    font-size: 30px;
+}
+.copyright
+{
+    position: absolute;
+    color: #0E2431;
+    font-family: quicksand;
+    font-size: 18px;
+    z-index: 12;
+    top: 780px;
+    left: 78px;
+}
+.tokyotxt
+{
+    position: absolute;
+    color: #F5E4C3;
+    font-family: quicksand;
+    font-size: 18px;
+    z-index: 13;
+    top: 452.5px;
+    left: 100px;
+    width: 1000px;
+}
+.tokyotower
+{
+    position: absolute;
+    color: #F5E4C3;
+    font-family: quicksand;
+    font-size: 18px;
+    z-index: 14;
+    top: 912.5px;
+    left: 1110px;
+    width: 500px;
+}
+.tokyomilk
+{
+    position: absolute;
+    color: #F5E4C3;
+    font-family: quicksand;
+    font-size: 18px;
+    z-index: 15;
+    top: 702.5px;
+    left: 1500px;
+    width: 500px;
+}
+.colorline
+{
+    position: absolute;
+    border-left: 40px solid #0E2431;
+    height: 1100px;
+    left: 1650px;
+    z-index: 16;
+}
+.colorline2
+{
+    position: absolute;
+    border-left: 40px solid #EA4C4C;
+    height: 1100px;
+    left: 1700px;
+    z-index: 17;
+}
+.colorline3
+{
+    position: absolute;
+    border-left: 40px solid #C14545;
+    height: 1100px;
+    left: 1750px;
+    z-index: 18;
+}
+#centre
+{
+    text-align: center;
+}
+#rotate901
+{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#rotate901
+{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#rotate902
+{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#rotate903
+{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
